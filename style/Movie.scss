@@ -1,0 +1,279 @@
+.page{
+    max-width: 650px;
+    padding-top: 47px;
+    background: #fff;
+    margin: 0 auto;
+    overflow-x: hidden;
+    .card1{
+        // margin: 0 ;
+        #movie_showing{
+            padding-top: 10px;
+            margin: 0;
+            overflow: hidden;
+            background-color: #fff;   
+           
+        }
+       
+    }
+} 
+header{
+    margin: 0 18px;
+    h2{
+        display: inline-block;
+        min-width: 64px;
+        margin-bottom: 0;
+        font-size: 16px;
+        color: #111;
+        padding-left: 0;
+        padding-bottom: 0;
+        font-size: 19px;
+        margin: 0 0 15px;
+    }
+    .more{
+    color: #42bd56;
+    float: right;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    }
+}
+.section_content{
+    margin-bottom: -18px;
+    ul{
+        font-size: 0;
+        white-space: nowrap;
+        overflow-x: auto;
+        border-bottom: 1px solid #F2F2F2;
+        padding: 5px 0 43px 0;
+        .item:first-child{
+            margin-left: 18px;
+        }
+        .item{
+            display: inline-block;
+            vertical-align: top;
+            width: 100px;
+            text-align: center;
+            font-size: 15px;
+            box-sizing: border-box;
+            // float: left;
+            margin-left: 8px;
+
+            a{
+                color: #111;
+                .item-poster{
+                    height: 142px;
+                     img{
+                    width: 100%;
+                    height: 100%;
+
+                    }
+                }
+               
+            }
+            .item_title{
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                word-wrap: normal;
+                max-width: 100%;
+                display: block;
+                margin-top: 10px;
+                line-height: 15px;
+            }
+        }
+    }
+}
+.item-rating{
+    color: #aaa;
+    line-height:15px;
+    // margin-top: .3rem;
+    font-size: 12px;
+}
+.rating-star{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+section{
+    margin: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+#interests ul{
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 15px 15px 43px 15px;
+    font-size: 0;
+    margin-left: -5px;
+    .line{
+        width: 100%;
+        display: block;
+        height: 1px;
+        border: 0;
+        margin: 0;
+    }
+    .first{
+        border-color: #FFC46C;
+        a{
+            color: #FFC46C;
+        }
+    }
+    .second{
+        border-color: #42BD56;
+        a{
+            color: #42BD56;
+        }
+    }
+    .three{
+        border-color: #CC3344;
+        a{
+            color: #CC3344;
+        }
+    }
+    .four{
+        border-color: #2384E8;
+        a{
+            color: #2384E8;
+        }
+    }
+    li{
+        margin: 0 0 8px 8px;
+        display: inline-block;
+        border-radius: .25rem;
+        border: solid 1px;
+        vertical-align: middle;
+        // float: left;
+        a{
+            height: 50px;
+            line-height: 50px;
+            padding: 0 24px;
+            letter-spacing: 2px;
+            overflow: auto;
+            display: block;
+            text-align: center;
+            font-size: 15px;
+            
+        }
+    }
+}
+#types{
+    // margin-right: -25px;
+    margin: 0;
+    overflow: hidden;
+    background-color: #fff;
+    .section-content{
+        margin-bottom:-30px;
+        margin-left: 15px;
+        ul{
+            padding: 18px 0 30px;
+            color: #eee;
+           
+            overflow: hidden;
+            li:nth-child(even){
+                border-right: none;
+                padding-left: 18px;
+            }
+            li{
+                width: 41.5%;
+                border-top: solid 1px #eee;
+                border-right: solid 1px #eee;
+                float: left;
+                padding-right: 18px;
+                height: 42px;
+                a{
+                    float: left;
+                    display: inline-block;
+                    width: 100%;
+                    line-height: 42px;
+                    color: #42bd56;
+                     font-size: 15px;
+                     span{
+                        color: #ccc;
+                        float: right;
+                        font-weight: bold;
+                        display: inline-block;
+                        border-right: solid 1px #ccc;
+                        border-bottom: solid 1px #ccc;
+                        width: 8px;
+                        height: 8px;
+                        transform: rotate(-45deg);
+                        margin-top:16px;
+                     }
+                }
+            }
+        }
+    }
+}
+.download-app{
+    padding: 0 0 20px 0;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 15px;
+    .info{
+        margin: 0 auto 15px;
+        overflow: hidden;
+        text-align: left;
+        font-size: 14px;
+        display: inline-block;
+        color: #111;
+        img{
+            float: left;
+            margin-right: 12px;
+            width: 48px;
+        }
+        strong{
+            font-size: 24px;
+            font-weight: normal;
+            line-height: 48px;
+        }
+    }
+    .download{
+        a{
+            display: block;
+            color: #42bd56;
+        }
+    }
+}
+.proBook{
+    display: block;
+    overflow: hidden;
+    margin: 15px 18px 0px;
+    img{
+        float: left;
+        width: 100px;
+        margin-right: 15px;
+    }
+    .content{
+        overflow: hidden;
+        .title{
+            margin: 10px 0;
+            .price{
+                float: right;
+                color: #E76648;
+                font-size: 16px;
+                line-height: 22px;
+            }
+            .name{
+                font-size: 19px;
+                color: #494949;
+                margin-right: 40px;
+                max-width: 100%;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                word-wrap: normal;
+            }
+        }
+        .infoDetail{
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 1.5;
+            color: #9B9B9B;
+        }
+    }
+}
